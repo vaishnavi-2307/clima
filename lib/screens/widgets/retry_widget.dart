@@ -14,7 +14,7 @@ class RetryWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
-            'No internet connection available.',
+            'Error: No internet connection available.',
           ),
           const SizedBox(height: 16),
           ElevatedButton(
